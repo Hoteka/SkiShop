@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  vertical-align: top;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*  */
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+._container {
+  max-width: 1000px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+.__container {
+  min-width: 1100px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* Page techncal class */
+
+.page {
+  flex: 1 1 auto;
+}
+
+/* Page  */
+
+.page__contact {
+  margin: 60px 0 0 0;
+}
+.contact {
+}
+.contact__container {
+  padding: 100px 0 160px 0;
+}
+.contact__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact__header {
+}
+.contact__text {
+  padding: 10px 0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.contact__form {
+  margin: 30px 0 30px 0;
+}
+.form {
+  margin: 280px 0;
+  display: flex;
+  flex-direction: column;
+  color: #424242;
+  align-items: center;
+}
+.title__ski {
+  display: flex;
+  align-items: center;
+  padding: 0 0 12px 0;
+}
+.column__photo {
+  display: flex;
+  align-items: center;
+  padding: 0 0 18px 50px;
+}
+.form__item {
+  margin: 0 0 20px 0;
+  height: 40px;
+  width: 300px;
+  border: 1px solid #424242;
+  resize: none;
+}
+.form__item::-webkit-input-placeholder {
+  padding: 10px;
+}
+.form__button {
+  color: #292727;
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #292727;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  transition: background-color 0.4s linear;
+}
+.form__button:hover {
+  color: #ffffff;
+  background-color: #363333;
+  border: 1px solid #ffffff;
+  display: inline-block;
+}
+.contact__main {
+  padding: 0 0 0 40px;
+}
+/* .upload__photo {
+  cursor: pointer;
+}
+#upload__photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+} */

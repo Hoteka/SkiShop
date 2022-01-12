@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  vertical-align: top;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  font-family: Oswald, sans-serif;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  background-color: #ffffff;
+}
+
+/*  */
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+._container {
+  max-width: 1000px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+._ibg {
+  position: relative;
+}
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* Page techncal class */
+
+.page {
+  flex: 1 1 auto;
+}
+
+/* Header */
+
+.header {
+  position: relative;
+  padding: 3px 45px;
+  color: #fff;
+}
+.header__fixed {
+  z-index: 1000;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.836);
+}
+.header a:hover {
+  color: #deb887;
+  transition: color 0.1s linear;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  font-style: italic;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: inherit;
+}
+.header__menu {
+  padding: 20px 0;
+}
+.menu__list {
+  display: flex;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu__item {
+  margin: 0 -50px 0 0;
+}
+.menu__item:not(:last-child) {
+  margin: 0px 25px 0px 0px;
+}
+.menu__link {
+  color: inherit;
+}
+.header__items {
+  padding: 15px 0;
+}
+.header__link {
+}
+.header__link:last-child img {
+  margin: -3px 0 0 0;
+}
+.header__link:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
+
+/* Page page__header*/
+
+.page__header {
+  position: relative;
+}
+.header-page {
+}
+.header-page__container {
+  margin: 100px 0 0 0;
+  padding: 0 20px;
+}
+.header-page__title {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 2;
+  color: #292727;
+  display: inline-block;
+  letter-spacing: 0.4px;
+}
+.header-page__title::after {
+  content: "";
+  width: 960px;
+  height: 2px;
+  display: block;
+  background: #bbbbbb;
+  margin: 0 auto;
+}
+.header-page__sub-title {
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 2;
+  color: #292727;
+  display: inline-block;
+  letter-spacing: 0.4px;
+  padding: 20px 0 0 0;
+}
+
+/* Page discription*/
+
+.page__discription {
+  position: relative;
+  margin: 0 0 100px 0;
+}
+.discription__container {
+  margin: 15px 0 15px 0;
+  padding: 0 20px;
+}
+.discription__text {
+  padding: 5px 0 0 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.sub__title{
+  font-weight: 900;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  color: #292727;
+  display: inline-block;
+  letter-spacing: normal;
+  margin: 0 0 10px 0;
+}
+.sub__text{
+  font-weight: 700;
+  font-size: 16px;
+  /* text-transform: uppercase; */
+  color: #292727;
+  display: inline-block;
+  letter-spacing: normal;
+  margin: 0 0 7px 0;
+}
+.title{
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 2;
+  color: #292727;
+  display: inline-block;
+  letter-spacing: 0.4px;
+}
+.italic{
+  font-style: italic;
+}
+/* Footer */
+
+.footer {
+  background-color: #101010;
+  color: #fff;
+}
+.footer__container {
+  height: 240px;
+}
+.footer__body {
+  padding: 40px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__column {
+}
+.footer__column__center {
+  margin: 0 300px 0 240px;
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+  margin: 10px 0 0 0;
+}
+.menu-footer__link {
+  color: inherit;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+.footer a:hover {
+  color: #deb887;
+  transition: color 0.1s linear;
+}
+.footer__logo {
+}
+.header__logo {
+}
+.footer__bottom {
+}
+.footer-social__links {
+  display: flex;
+}
+.footer-social__link {
+  padding: 0 5px;
+}
+.footer-social__link:hover {
+}
+.footer__copyright {
+  margin: -35px 0 0 0;
+  align-items: center;
+  justify-content: left;
+  padding: 0 0 15px 15px;
+}
+.footer-copyright__link {
+  color: inherit;
+  padding: 0 0 0 5px;
+}
